@@ -8,6 +8,9 @@ Node.js y Playwright para pruebas E2E.
 
 TypeScript para tipado seguro.
 
+Herramienta
+Intellij
+
 Page Object Model (POM) para organizar las páginas:
 
 HomePage
