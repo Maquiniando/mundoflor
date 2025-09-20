@@ -2,7 +2,7 @@ Proyecto Automatización E2E - Floristería Mundo Flor
 
 Este proyecto contiene pruebas end-to-end (E2E) para la tienda Mundo Flor, implementadas con Playwright siguiendo el patrón Page Object Model (POM).
 
-Tecnologías utilizadas
+* Tecnologías utilizadas
 
 Node.js y Playwright para pruebas E2E.
 
@@ -22,7 +22,7 @@ Expect de Playwright para validaciones y esperas explícitas.
 
 Capturas de pantalla adjuntadas a los reportes de cada test.
 
-Estructura del proyecto
+* Estructura del proyecto
 /tests
 /e2e
 amor.spec.ts
@@ -36,7 +36,7 @@ package.json
 tsconfig.json
 README.md
 
-Flujo del test principal
+* Flujo del test principal
 
 Ir a la página principal (HomePage).
 
