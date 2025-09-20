@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // Target moderno para async/await y Promises
+    "target": "ES2020",
+    "lib": ["ES2020", "DOM"],
+
+    // Módulos y Node
+    "module": "nodenext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    // Generación de mapas y declaraciones
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Estricto y seguro
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "skipLibCheck": true,
+
+    // Otras opciones recomendadas
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["tests/**/*.ts", "pages/**/*.ts", "fixtures/**/*.ts"]
+}
